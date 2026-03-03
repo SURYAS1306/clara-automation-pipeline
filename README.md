@@ -200,6 +200,16 @@ Each file acts as a mock task record (similar to an Asana ticket) with:
 
 The pipeline automatically upserts these files when v1 or v2 artifacts are created, giving you a simple, local way to track per-account workflow state without any paid SaaS.
 
+
+### LLM Usage (Zero-Cost Compliance)
+
+This implementation uses deterministic rule-based extraction and structured templating.
+
+No external LLM APIs are called.
+No paid inference services are required.
+
+All parsing and agent spec generation is performed locally using Python logic, ensuring full compliance with the zero-cost constraint.
+
 ### Notes
 
 - All extraction is **evidence-based**: every field stores `value`, `confidence` (`explicit | implied | missing`), and `source_quote`.  
