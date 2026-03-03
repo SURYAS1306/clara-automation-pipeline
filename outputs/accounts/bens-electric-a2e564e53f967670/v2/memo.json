@@ -1,0 +1,92 @@
+{
+  "account_id": "bens-electric-a2e564e53f967670",
+  "company_name": {
+    "value": "Ben's Electric",
+    "confidence": "explicit",
+    "source_quote": "Ben's Electric"
+  },
+  "business_hours": {
+    "value": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "start": "08:30",
+      "end": "17:00",
+      "timezone": null
+    },
+    "confidence": "explicit",
+    "source_quote": "Onboarding call confirms business hours as roughly 8:30 to 5, Monday to Friday."
+  },
+  "office_address": {
+    "value": null,
+    "confidence": "missing",
+    "source_quote": ""
+  },
+  "services_supported": {
+    "value": [
+      "residential electrical services",
+      "renovations and troubleshooting",
+      "EV charger installation",
+      "hot tub hookups",
+      "panel changes"
+    ],
+    "confidence": "implied",
+    "source_quote": "Discussion of services: renovations, troubleshooting, EV chargers, hot tubs, panel changes."
+  },
+  "emergency_definition": {
+    "value": [
+      "After-hours emergencies only for specific property manager client (gas stations managed by G&M Pressure Washing)."
+    ],
+    "confidence": "explicit",
+    "source_quote": "Onboarding call states no general emergency calls, except emergencies for one property management client with gas stations."
+  },
+  "emergency_routing_rules": {
+    "value": {
+      "primary_contact": "Ben (owner)",
+      "description": "After hours, only emergencies for the specified property manager's gas stations are treated as emergencies and routed directly to Ben."
+    },
+    "confidence": "explicit",
+    "source_quote": "Onboarding call describes emergency handling only for gas station client and that calls should be patched through to Ben."
+  },
+  "non_emergency_routing_rules": {
+    "value": {
+      "description": "Ben takes all regular business calls directly during business hours."
+    },
+    "confidence": "implied",
+    "source_quote": "Ben describes current call handling where he takes all business calls himself."
+  },
+  "call_transfer_rules": {
+    "value": null,
+    "confidence": "missing",
+    "source_quote": ""
+  },
+  "integration_constraints": {
+    "value": {
+      "crm": "Jobber",
+      "notes": "No current Jobber integration; integration with ServiceTitan and others exists, Jobber in progress."
+    },
+    "confidence": "implied",
+    "source_quote": "Demo mentions Jobber as CRM and that Clara is building a Jobber integration."
+  },
+  "after_hours_flow_summary": {
+    "value": "After hours, Clara filters calls. For general callers, Clara collects details and promises a next-business-day follow-up. For the specific gas-station property manager client, Clara treats calls as emergencies and patches them to Ben.",
+    "confidence": "explicit",
+    "source_quote": "Onboarding call describes after-hours behavior and special handling for the property manager's gas stations."
+  },
+  "office_hours_flow_summary": {
+    "value": "During office hours (Mon–Fri, ~8:30–17:00), Clara answers the main line for new and small service calls, collects caller details, and notifies Ben via email and SMS so he or his team can follow up and schedule work.",
+    "confidence": "explicit",
+    "source_quote": "Onboarding call explains forwarding from main line to Clara during office hours and notification preferences."
+  },
+  "questions_or_unknowns": [
+    "What are your official business hours (days, start/end times, timezone)?",
+    "What timezone should be used for the confirmed business hours (e.g., America/Calgary)?"
+  ],
+  "notes": "v2 memo based on onboarding call. Demo-derived assumptions are overridden only where explicitly updated.",
+  "version": "v2",
+  "source": "onboarding_call"
+}

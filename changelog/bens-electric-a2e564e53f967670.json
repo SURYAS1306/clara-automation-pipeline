@@ -1,0 +1,108 @@
+{
+  "account_id": "bens-electric-a2e564e53f967670",
+  "company_name": null,
+  "version": "multi",
+  "entries": [
+    {
+      "field": "business_hours",
+      "previous_value": {
+        "value": null,
+        "confidence": "missing",
+        "source_quote": ""
+      },
+      "new_value": {
+        "value": {
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "start": "08:30",
+          "end": "17:00",
+          "timezone": null
+        },
+        "confidence": "explicit",
+        "source_quote": "Onboarding call confirms business hours as roughly 8:30 to 5, Monday to Friday."
+      },
+      "conflict_type": null,
+      "resolution_source": "onboarding_call",
+      "note": "Business hours confirmed during onboarding."
+    },
+    {
+      "field": "emergency_definition",
+      "previous_value": {
+        "value": [
+          "gas station pump down emergencies for specific property manager clients"
+        ],
+        "confidence": "implied",
+        "source_quote": "Ben describes emergency calls for gas stations when pumps go down."
+      },
+      "new_value": {
+        "value": [
+          "After-hours emergencies only for specific property manager client (gas stations managed by G&M Pressure Washing)."
+        ],
+        "confidence": "explicit",
+        "source_quote": "Onboarding call states no general emergency calls, except emergencies for one property management client with gas stations."
+      },
+      "conflict_type": "definition_narrowing",
+      "resolution_source": "onboarding_call",
+      "note": "Clarified that only a single property manager/gas station client has after-hours emergency coverage."
+    },
+    {
+      "field": "emergency_routing_rules",
+      "previous_value": {
+        "value": {
+          "description": "Ben personally handles limited emergency calls for select property managers and GCs.",
+          "primary_contact": "Ben (owner)"
+        },
+        "confidence": "implied",
+        "source_quote": "Ben explains he is the one on call for specific emergency clients."
+      },
+      "new_value": {
+        "value": {
+          "primary_contact": "Ben (owner)",
+          "description": "After hours, only emergencies for the specified property manager's gas stations are treated as emergencies and routed directly to Ben."
+        },
+        "confidence": "explicit",
+        "source_quote": "Onboarding call describes emergency handling only for gas station client and that calls should be patched through to Ben."
+      },
+      "conflict_type": null,
+      "resolution_source": "onboarding_call",
+      "note": "Refined emergency routing to cover only the gas-station property manager after hours."
+    },
+    {
+      "field": "office_hours_flow_summary",
+      "previous_value": {
+        "value": "Ben personally answers most calls, qualifies work, and schedules via Jobber; call volume moderate (20–50 calls/week including spam and contractors).",
+        "confidence": "implied",
+        "source_quote": "Ben and team describe current call volume, types, and that Ben handles calls and scheduling."
+      },
+      "new_value": {
+        "value": "During office hours (Mon–Fri, ~8:30–17:00), Clara answers the main line for new and small service calls, collects caller details, and notifies Ben via email and SMS so he or his team can follow up and schedule work.",
+        "confidence": "explicit",
+        "source_quote": "Onboarding call explains forwarding from main line to Clara during office hours and notification preferences."
+      },
+      "conflict_type": null,
+      "resolution_source": "onboarding_call",
+      "note": "Office-hours flow refined based on onboarding configuration discussion."
+    },
+    {
+      "field": "after_hours_flow_summary",
+      "previous_value": {
+        "value": "Ben sometimes answers after-hours calls himself; limited emergencies for specific property managers, others often deferred.",
+        "confidence": "implied",
+        "source_quote": "Ben explains his after-hours behavior: he is on call, handles specific gas station emergencies, defers many others."
+      },
+      "new_value": {
+        "value": "After hours, Clara filters calls. For general callers, Clara collects details and promises a next-business-day follow-up. For the specific gas-station property manager client, Clara treats calls as emergencies and patches them to Ben.",
+        "confidence": "explicit",
+        "source_quote": "Onboarding call describes after-hours behavior and special handling for the property manager's gas stations."
+      },
+      "conflict_type": null,
+      "resolution_source": "onboarding_call",
+      "note": "After-hours flow refined and linked to specific emergency client."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "account_id": "bens-electric-a2e564e53f967670",
+  "company_name": {
+    "value": "Ben's Electric",
+    "confidence": "explicit",
+    "source_quote": "Ben's Electric"
+  },
+  "business_hours": {
+    "value": null,
+    "confidence": "missing",
+    "source_quote": ""
+  },
+  "office_address": {
+    "value": null,
+    "confidence": "missing",
+    "source_quote": ""
+  },
+  "services_supported": {
+    "value": [
+      "residential electrical services",
+      "renovations and troubleshooting",
+      "EV charger installation",
+      "hot tub hookups",
+      "panel changes"
+    ],
+    "confidence": "implied",
+    "source_quote": "Discussion of services: renovations, troubleshooting, EV chargers, hot tubs, panel changes."
+  },
+  "emergency_definition": {
+    "value": [
+      "gas station pump down emergencies for specific property manager clients"
+    ],
+    "confidence": "implied",
+    "source_quote": "Ben describes emergency calls for gas stations when pumps go down."
+  },
+  "emergency_routing_rules": {
+    "value": {
+      "description": "Ben personally handles limited emergency calls for select property managers and GCs.",
+      "primary_contact": "Ben (owner)"
+    },
+    "confidence": "implied",
+    "source_quote": "Ben explains he is the one on call for specific emergency clients."
+  },
+  "non_emergency_routing_rules": {
+    "value": {
+      "description": "Ben takes all regular business calls directly during business hours."
+    },
+    "confidence": "implied",
+    "source_quote": "Ben describes current call handling where he takes all business calls himself."
+  },
+  "call_transfer_rules": {
+    "value": null,
+    "confidence": "missing",
+    "source_quote": ""
+  },
+  "integration_constraints": {
+    "value": {
+      "crm": "Jobber",
+      "notes": "No current Jobber integration; integration with ServiceTitan and others exists, Jobber in progress."
+    },
+    "confidence": "implied",
+    "source_quote": "Demo mentions Jobber as CRM and that Clara is building a Jobber integration."
+  },
+  "after_hours_flow_summary": {
+    "value": "Ben sometimes answers after-hours calls himself; limited emergencies for specific property managers, others often deferred.",
+    "confidence": "implied",
+    "source_quote": "Ben explains his after-hours behavior: he is on call, handles specific gas station emergencies, defers many others."
+  },
+  "office_hours_flow_summary": {
+    "value": "Ben personally answers most calls, qualifies work, and schedules via Jobber; call volume moderate (20–50 calls/week including spam and contractors).",
+    "confidence": "implied",
+    "source_quote": "Ben and team describe current call volume, types, and that Ben handles calls and scheduling."
+  },
+  "questions_or_unknowns": [
+    "What are your official business hours (days, start/end times, timezone)?"
+  ],
+  "notes": "Preliminary v1 memo derived from demo call only. Many operational details intentionally left unknown.",
+  "version": "v1",
+  "source": "demo_call"
+}
