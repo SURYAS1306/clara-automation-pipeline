@@ -22,6 +22,32 @@ The design follows the assignment requirements: no hallucination, strict evidenc
 - `logs/<account_id>.log` – plain-text log for this account
 
 
+
+### How to Run From Scratch
+
+1. Clone the repository.
+2. Ensure Python 3.10+ is installed.
+3. Place demo and onboarding transcripts inside `data/raw/`.
+4. Run:
+
+   ```
+   cd scripts
+   python3 run_pipeline.py
+   cd ..
+   ```
+
+All outputs will be generated under:
+
+- `outputs/accounts/`
+- `changelog/`
+- `logs/`
+- `tasks/`
+
+No external services or paid APIs are required.
+
+---
+
+
 ### Account Memo Schema (Required Fields)
 
 Each account memo (`memo.json`) contains the required structured fields:
@@ -49,31 +75,6 @@ Each field includes:
 - `source_quote`
 
 No fields are hallucinated. Missing data is preserved explicitly.
-
----
-
-
-### How to Run From Scratch
-
-1. Clone the repository.
-2. Ensure Python 3.10+ is installed.
-3. Place demo and onboarding transcripts inside `data/raw/`.
-4. Run:
-
-   ```
-   cd scripts
-   python3 run_pipeline.py
-   cd ..
-   ```
-
-All outputs will be generated under:
-
-- `outputs/accounts/`
-- `changelog/`
-- `logs/`
-- `tasks/`
-
-No external services or paid APIs are required.
 
 ---
 
