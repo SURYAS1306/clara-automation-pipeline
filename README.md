@@ -21,6 +21,62 @@ The design follows the assignment requirements: no hallucination, strict evidenc
 - `changelog/<account_id>.json` – append-only changelog for this account
 - `logs/<account_id>.log` – plain-text log for this account
 
+
+### Account Memo Schema (Required Fields)
+
+Each account memo (`memo.json`) contains the required structured fields:
+
+- `account_id`
+- `company_name`
+- `business_hours` (days, start, end, timezone)
+- `office_address`
+- `services_supported`
+- `emergency_definition`
+- `emergency_routing_rules`
+- `non_emergency_routing_rules`
+- `call_transfer_rules`
+- `integration_constraints`
+- `after_hours_flow_summary`
+- `office_hours_flow_summary`
+- `questions_or_unknowns`
+- `notes`
+- `version`
+
+Each field includes:
+
+- `value`
+- `confidence` (`explicit | implied | missing`)
+- `source_quote`
+
+No fields are hallucinated. Missing data is preserved explicitly.
+
+---
+
+
+### How to Run From Scratch
+
+1. Clone the repository.
+2. Ensure Python 3.10+ is installed.
+3. Place demo and onboarding transcripts inside `data/raw/`.
+4. Run:
+
+   ```
+   cd scripts
+   python3 run_pipeline.py
+   cd ..
+   ```
+
+All outputs will be generated under:
+
+- `outputs/accounts/`
+- `changelog/`
+- `logs/`
+- `tasks/`
+
+No external services or paid APIs are required.
+
+---
+
 ### Quick Start
 
 Requirements:
@@ -49,6 +105,17 @@ This will:
 4. Write logs to `logs/<account_id>.log` and changelogs to `changelog/<account_id>.json`.
 
 See `scripts/schema.py` and `scripts/run_pipeline.py` for the exact JSON shapes and merge rules.
+
+### Batch Processing (5 Demo + 5 Onboarding Support)
+
+The pipeline automatically processes **all matching files** in `data/raw/`:
+
+- `*_demo.txt` → generates `v1` artifacts  
+- `*_onboarding.txt` → generates or updates `v2` artifacts  
+
+This enables end-to-end execution on datasets containing **5 demo calls + 5 onboarding calls** (or more) in a single run.
+
+The workflow is deterministic and idempotent — running it multiple times does not create duplicate artifacts or inconsistent state.
 
 ### Diff viewer & summary metrics
 
