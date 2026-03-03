@@ -80,6 +80,43 @@ Suggested usage:
 2. Import `workflows/n8n_clara_pipeline.json` into n8n.  
 3. Manually trigger the workflow to process all available demo + onboarding transcripts.
 
+### Retell Setup
+
+This project generates a **Retell Agent Draft Spec** (`agent_spec.json`) for each account.  
+The spec represents how the Clara Answers agent would be configured inside Retell.
+
+Because this assignment requires **zero spend**, the pipeline does not automatically call Retell APIs.  
+Instead, it produces a fully structured agent configuration that can be manually imported.
+
+#### Create a Retell Account
+
+- Sign up at https://retellai.com  
+- Create a new agent from the dashboard  
+- If available on the free tier, generate an API key from the Retell dashboard  
+
+*(API usage is optional and not required for this project.)*
+
+#### Manual Import Steps
+
+For each account:
+
+1. Run the pipeline.  
+2. Open:
+   - `outputs/accounts/<account_id>/v1/agent_spec.json`
+   - `outputs/accounts/<account_id>/v2/agent_spec.json`
+3. In the Retell dashboard:
+   - Create or edit an agent  
+   - Copy the generated **system prompt** into the prompt section  
+   - Configure business hours, routing rules, and transfer settings using the JSON as reference  
+4. Save the agent.
+
+#### Versioning
+
+- `v1` → Generated from demo call (preliminary configuration)  
+- `v2` → Updated after onboarding call (operationally confirmed rules)
+
+The JSON files serve as the source of truth and allow full reproducibility even without API access.
+
 ### Task Tracking Layer
 
 This project includes a minimal, zero-cost task tracking layer under:
