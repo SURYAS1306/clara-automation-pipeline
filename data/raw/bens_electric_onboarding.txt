@@ -1,0 +1,710 @@
+0:04
+Just give me a second. We'll let Ben in. Okay. So, Naven's
+0:14
+Can I change his name to actually going forward? Naven, if you can put Clara's
+0:18
+display picture, that'll be helpful. Claraara support. I'm changing your name
+0:25
+and Okay, cool.
+0:34
+>> I'll let him in.
+0:37
+>> Yes, we're good. All right, letting him in in three, two, one. And Ben is in.
+0:42
+Very sweet guy, by the way. He's in.
+0:52
+Hey, Ben. Good afternoon. Um,
+0:57
+>> oh, oh, oh, wait. Oh, hey. Hi. Good afternoon.
+1:00
+>> Hey, Ben. How are you?
+1:03
+>> I'm doing well. How are you?
+1:04
+>> Very well. Thank you so much for asking. Really, really excited to kick things
+1:08
+off for you and uh yeah, I mean, how have things been since the last time we
+1:14
+spoke?
+1:15
+>> Good. Busy.
+1:16
+>> Busy. That's good.
+1:18
+>> Scrambling around for sure. So, it's it's been fun. Um,
+1:22
+>> yeah, I just signed the um the docu sign.
+1:26
+>> Oh, okay.
+1:26
+>> And it did look like it said um like a 12-month term and I think we were
+1:30
+talking about three months to start.
+1:32
+>> Correct. So, what it means there is that after the 3 months, if you decide to
+1:36
+continue, which I'm sure you will,
+1:38
+>> the price will stay the same. So, that's what that 12 month term me means. So,
+1:44
+you'll be good.
+1:45
+>> Perfect.
+1:45
+>> It just helps you with the cost increase. Yeah. So, you've signed the
+1:48
+docuign.
+1:50
+>> Yeah. Awesome. I think I'll be getting a notification from the billing team and I
+1:53
+think the card that you probably the details that you shared with me that
+1:56
+also might be in process of getting executed. So I think we're good. Uh but
+2:00
+all that aside, I just wanted to introduce the the new face that you can
+2:03
+probably see on your screen. That's Pavan.
+2:06
+>> And hey Ben,
+2:10
+>> I wanted to get somebody who I mean who understands things in and out and turns
+2:15
+out Pav's the one who started the whole journey of Clar answer. So he's somebody
+2:19
+who's very deeply knitted into this program, this solution. So he'll
+2:24
+>> match your pace, understand your expectations and of course married and
+2:29
+then present the solution to you.
+2:31
+>> So he's going to be your dedicated point of contact, but if there's if any case
+2:34
+if at any point there has to be more people involved, we'll of course notify
+2:37
+you and then we'll loop other people in as well.
+2:40
+>> Okay, sounds good.
+2:41
+>> That said, I'll let Pav take over and uh yeah, we'll kick things off. Yeah, thank
+2:47
+you so much, Bar. Uh and yeah, Bar is my hype man, right? You know, whenever with
+2:53
+all the intro. Uh but yeah, uh I mean super excited to get you started, Ben,
+2:58
+and got all the context of your business. What you're trying to solve
+3:01
+with, you know, the first uh solution here that is you know AI for answering
+3:05
+for your business. Um got all the context from Barat in the way you guys
+3:10
+operate today. With that information, we already have the
+3:14
+you know base variant of the agent configured. just one just couple of
+3:19
+details you know some details that I wanted to clarify so that we can
+3:23
+complete that configuration and make the agent available for your testing today
+3:27
+itself right uh that'll be the target the way the process would look like as
+3:31
+well is uh we'll share the number on which the agent will be available and
+3:36
+the dashboard as well so that you know you can run some test calls see how the
+3:40
+agent is responding all that after this call we'll I'll share that details with
+3:45
+you by making those final configuration and then post that we can probably set
+3:50
+up another call per Friday if you have some time because you get this one day
+3:56
+to really test and you know run some test calls see if you'd want anything
+4:00
+changed
+4:02
+>> and then you know we can probably you know have
+4:06
+the agent take live calls this weekend right
+4:09
+>> okay
+4:11
+>> so firstly to I mean get an understanding we'll divide the
+4:14
+conversation into during office hours and after hours just to get the behavior
+4:20
+that we'd want to uh have for the agent.
+4:25
+>> So for during office hours when uh is it only you who takes all the incoming
+4:30
+calls from customers or is there anyone else as well?
+4:32
+>> No, right now it's just me.
+4:34
+>> Yeah. So
+4:36
+>> we have we have some steady like contractors and they have the phone
+4:41
+numbers for some of my team so they can talk directly
+4:44
+>> uh for the guys in the field. But generally like what I need this for is
+4:48
+the
+4:49
+>> the new clients, the small jobs, the service calls, people that call every
+4:52
+day that we don't have a already working relationship with. So
+4:57
+>> but anyways, yeah, it's me that takes those calls.
+4:59
+>> Okay, makes sense. uh and then uh so when CL will be set up the way it will
+5:04
+be set up is your main business line today uh by default the forwarding will
+5:09
+be set up from there to CL
+5:11
+>> so you know we can start off with uh so what I understand from birth is you only
+5:16
+have one number and that is your personal number that is your business
+5:18
+line I think that is
+5:20
+>> do you do you by any chance happen to have a second number
+5:24
+>> I do I've got a I was actually thinking about this a while ago so I actually
+5:27
+have another phone with a phone line that I'm going to use for personal.
+5:31
+>> Oh, that's perfect.
+5:32
+>> Um, yeah, I just have to get it going and tell all my contacts my new number.
+5:36
+>> Um,
+5:37
+>> perfect.
+5:38
+>> Yeah,
+5:39
+>> the way will be Mhm.
+5:40
+>> Yeah, I was going to say like can I turn until I get that done? Am I able to turn
+5:44
+Clara off and on as needed kind of thing or?
+5:47
+>> Yes. Cool.
+5:48
+>> So, the way then we can the way we can set it up is uh you know on your phone
+5:53
+uh do you use a iOS device like an Apple device or an Android?
+5:58
+>> Uh Android. Perfect. That that makes it even easier because you you can really
+6:02
+set some uh you know the way we can start off is on your phone you can set
+6:06
+up the call forwarding in a way where if you do not answer the call or if you
+6:10
+decline the call then we can forward the calls to CL. So in that way in that way
+6:16
+we can start off like that until you have the second number up and running.
+6:20
+Once the second number is up,
+6:22
+>> then you know we can have Clara be the first point of contact and then if
+6:27
+someone wants to talk to you or you know then then we can transfer it to the
+6:33
+second number.
+6:33
+>> Oh, I was actually going to ask that today. So Clara can transfer if somebody
+6:36
+really needs to talk to me, Clara can transfer that call.
+6:39
+>> Yes, that's where that's where we'll need that second number. That's why
+6:44
+>> Oh, gotcha. Okay.
+6:45
+>> Yep. So that is possible. Cool. Uh so when the second number is up and running
+6:51
+probably that is one number that I'll need from you. You can just uh I'll send
+6:54
+my I'll send the details of the agent on the email so you can reply to that. I'll
+6:58
+include these pointers as well so that we can
+7:01
+>> so for office hours that is one. And then for anyone who's calling to
+7:06
+probably schedule an appointment or is inquiring about a quote, uh do you have
+7:11
+any minimum uh like a visit fee that you charge if you have to ever give out an
+7:17
+estimate?
+7:18
+>> Yeah, our structure is set up like for service calls. Um we do have a service
+7:23
+call fee which is $115. That's a call out, which is what gets us
+7:27
+to the job site.
+7:29
+>> And then our hourly charge is in half hour increments after that
+7:34
+>> um at the hourly rate $98 an hour for a residential.
+7:38
+>> Oh, okay. Is it 98 or 90?
+7:41
+>> 98.
+7:42
+>> Okay, cool. Perfect.
+7:43
+>> Per hour, which for a half hour is going to be, of course, uh 40
+7:48
+>> 9
+7:48
+>> 9.
+7:49
+>> Yeah.
+7:49
+>> Yeah.
+7:50
+>> Cool. And then for the initial 115. So for that uh do you have a like does that
+7:56
+cover for the first 1 hour 2 hours or anything like that?
+7:59
+>> No that's just the call out to get to site.
+8:02
+>> Okay. And then
+8:03
+>> yeah.
+8:04
+>> Okay. So
+8:06
+>> so basically it's $150 for the first half hour orund
+8:11
+>> Oh okay. Yeah that's what it Okay. For the first first half hour it's the
+8:15
+initial call out fee and then every hawker increments from there.
+8:17
+>> Perfect. Makes sense. So, and uh do you want Clara to mention that on the call
+8:23
+or shall we start off with not mentioning and you want to take that
+8:28
+call subjectively based on
+8:30
+>> because some calls you might
+8:32
+>> most of the time I've definitely learned that people need to know about that
+8:36
+before we before we book the job.
+8:38
+>> Um so when people ask I do want Clara to be able to mention that. um
+8:45
+>> only if they want to clarify we'll mention but we'll not make it a point to
+8:48
+mention on every call
+8:49
+>> I think so. Yeah, I I mean I guess Clara actually speaks better than I do. Sorry,
+8:53
+I'm trying to um mute my phone right now. I've got a whole bunch of
+8:58
+notifications coming in here. Um I I double book myself. I actually have a
+9:03
+flat tire and I've got a mobile tire repair guy right now.
+9:07
+Um excuse me one quick second. He's just outside my door. Sorry, guys.
+9:12
+>> Yes, he is. Look. Sorry guys, I just got to pay this guy.
+10:03
+Be right back. Oh, so sorry guys. Sorry. Sorry. Sorry.
+12:21
+>> No problem.
+12:24
+>> Cool.
+12:26
+>> Yeah, I hate doing that. Sorry. Sorry. Uh, no. Carry on.
+12:29
+>> No problem. No problem at all. So we we're talking about uh service call fee
+12:34
+and we'll only include you know we'll not make it a point to mention it on all
+12:40
+call but you know we'll have
+12:42
+>> we'll have that information and when yeah when people ask for if there is a
+12:46
+minimum fee or
+12:48
+>> anything of that nature right
+12:50
+>> cool and then for everything else uh yeah I think everything else is clear
+12:55
+from the website already so we'll start off there but you know we can
+12:59
+>> uh any day as the calls come in, you know, we can make changes. It's not like
+13:03
+very rigid in that way. So, if you'd want to include some policies or, you
+13:08
+know, if you'd want a specific type of calls handled a little differently, all
+13:12
+of that we can,
+13:13
+>> you know, take it up when as and when they pop up.
+13:16
+>> Okay.
+13:17
+>> So, that was one. The other one is uh so we can send out a notification whenever
+13:21
+there's a new call. So, do you have a preferred email address and a phone
+13:25
+number so that we can have the email and then the SMS send out? Yeah. Um, let me
+13:31
+just think here. Probably the best one. Um, info@benlectricsolutionsteam.com.
+13:38
+Oh,
+13:38
+>> okay. So, just so that I don't get the spelling wrong here. Will it be possible
+13:43
+to drop that in the chat?
+13:45
+>> Yeah, sure.
+13:46
+>> It's basically the same as uh if you have my email address, it's the same
+13:50
+info instead of Ben. Yeah.
+13:53
+>> But I will write it down for you. Yep.
+13:57
+>> I'll get that from there. Cool. And then the number on which you So the
+14:04
+main line that you're using, we'll use the same number to send the SMS.
+14:09
+>> Uh the same number to send which sorry
+14:11
+>> so we'll send the post call like whenever there is a new call from the
+14:14
+customer you'll get an SMS as well saying hey.
+14:16
+>> Oh yeah yeah actually I was going to ask about that too if it affects text
+14:20
+messages or not but probably not.
+14:22
+>> Oh okay. Okay.
+14:24
+>> So we'll have both the email and text message set up on that number. Okay,
+14:28
+perfect. And so, um,
+14:32
+>> yeah, if people are text messaging me on this phone, that's not going to get in.
+14:35
+I'll I'll get those text messages right away.
+14:38
+>> So, your phone your phone the main line it'll be working fine on like only the
+14:44
+incoming calls are getting forwarded to CLA, but everything the call you can
+14:48
+make outbound calls using your number, you can text back and forth, all of that
+14:52
+is still,
+14:53
+>> you know, pretty much the same.
+14:56
+>> Exactly. Okay.
+14:57
+>> So that is with the office hours. But coming to after hours Ben, do you do any
+15:05
+kind of dispatch for after hours?
+15:09
+>> No, we don't do um emergency calls.
+15:13
+>> Um except for, you know, our existing builders and I've got one property
+15:18
+manager um that sometimes they've got some they've got gas stations that are
+15:23
+running 247. So short answer is no but yes for one
+15:29
+particular company.
+15:31
+>> Okay. So if you have that one particular company if you can help me with the
+15:34
+details of that company what we can do is you know if a call if someone from
+15:41
+that property calls for an emergency after hours then you know we can patch
+15:46
+it through to
+15:48
+>> Oh okay. So you can actually select one number that's allowed to get patched
+15:52
+through. Yeah, but it's more Yeah, we can use that number or even if you give
+15:56
+me the context of the property because you don't know who will be calling from
+15:59
+that property, right? So, you can Yeah, if you can just give me the details of
+16:04
+Yes. the customer name, address, if you have that handy, you can drop that in
+16:09
+the chat. Yeah. But even if Okay.
+16:11
+>> Yeah.
+16:12
+>> So, just the details, customer name, property name, their address, primary
+16:17
+contact.
+16:18
+>> It's all right here in my phone. Give me one moment. Yep.
+16:25
+>> Shelly. Okay. So, I'll put it in the chat.
+16:39
+It's weird. It's a property manager, but they also do a lot of um pressure
+16:43
+washing and landscaping. So, the company is actually called uh G&M Pressure
+16:48
+Washing, but they're property management.
+16:51
+I think they can use CL as well.
+16:56
+>> Yeah, they probably could. Um,
+17:25
+Did you say you need their email address as well?
+17:29
+>> Yeah. I mean any any information that you already have so that when they call
+17:33
+you know we if they mention hey I'm Shelly you know or this is the number or
+17:39
+you know if someone else is calling as well and they say hey this is from
+17:44
+>> okay from G&M pressure wash
+17:49
+>> yeah they uh okay how is this see if I can
+17:57
+copy it But GNM uh just one question there Ben.
+18:03
+So GNM is the property management company but
+18:08
+>> yes
+18:08
+>> the property
+18:10
+>> okay uh is it a specific property under them for which they would call for
+18:15
+emergencies or is it their facility itself?
+18:18
+>> No, it's properties that they manage. So it's um
+18:22
+it's gas stations. So we do we do work for them. They they manage um Chevron
+18:29
+uh Chevron and Essos.
+18:31
+>> Okay. So, when they call, do they I think they'll be giving you the gas
+18:36
+station details, right?
+18:38
+>> Yes. Yeah. She'll she'll normally um Jeez, I've had a couple couple calls in
+18:44
+the middle of the night and uh she'll usually message me or Yeah, she'll tell
+18:48
+me the details and she'll send me a text message as well. So, she generally will
+18:53
+give all of that information.
+18:55
+>> Okay.
+18:56
+>> Um cuz yeah, there's several there's several properties about 20 gas
+19:00
+stations, you know, around the city that we work in.
+19:03
+>> Yeah. You probably have to just let her know, hey, I'm trying this, you know,
+19:08
+new answering service out. So, you can just call in and drop all the context
+19:13
+and I'll
+19:14
+>> Sure.
+19:15
+>> I'll be there. The call will be patched through right to me.
+19:19
+>> Okay. Perfect. Cool. Uh so that covers the after hours
+19:24
+as well because there's only one property or you know one customer.
+19:27
+>> Yeah, there's there's really only the one customer
+19:30
+>> for for everyone else. We'll just have it as uh you know we'll get back to you
+19:35
+the next business day and then
+19:37
+>> yeah the working hours are Monday to Friday. Shall we take directly from the
+19:41
+website? I think it's Monday to Friday and then
+19:45
+>> yeah Monday to Friday I think what the website says is 8 to 4:30.
+19:49
+>> Yeah. basically
+19:51
+>> pretty much 8:30 to 5 is kind of what we work but yeah
+19:54
+>> okay perfect we'll use that information again like I said we're starting in
+19:58
+there but if you want to make any changes we can always take that uh
+20:02
+>> okay
+20:02
+>> but yeah uh that was pretty much it like that was pretty much all the information
+20:07
+that I needed because the rest of the information we're already using your
+20:12
+website uh to have the agent trained on it so there's no problems there but yeah
+20:17
+this should already help us complete read the configuration and send the
+20:21
+details over to you.
+20:22
+>> This is how the so I'll send a link to the dashboard where you can see all the
+20:27
+calls and then the number.
+20:29
+>> Uh I'm purposefully not sharing the screen to show you the dashboard around.
+20:34
+Uh but I know I'd want you to just log in try try your hand at the dashboard
+20:39
+and then when we probably we can schedule a time on Friday and then
+20:43
+that's when you would already have made some test calls all of them would be on
+20:48
+the dashboard and I can just walk you through them how you can actually put
+20:53
+the bash put the dashboard to the best use.
+20:56
+>> Terrific.
+20:58
+>> Cool. Uh so for Friday, do you have a time in mind,
+21:04
+Ben, where we can connect again?
+21:07
+>> Let me uh just make sure in my schedule I've got nothing else going on on
+21:11
+Friday.
+21:13
+>> Same time works. If same time works, we can have it on the same time as well.
+21:17
+>> I did Oh, I think um
+21:24
+where's the I think I've got something on Friday. Hang on a moment.
+21:30
+Where is that? Yeah, noon's not going to be good. Okay,
+22:04
+so I've got a meeting already, a lunch meeting from noon till 1 on Friday. So,
+22:11
+uh, how much time do you think we need for the meeting on Friday?
+22:14
+>> Less than half an hour.
+22:15
+>> Less than half an hour. Okay.
+22:16
+>> Probably 15 20 minutes. So what we'll essentially be doing is you would uh
+22:21
+after receiving the details today you just you will try making some test calls
+22:26
+and then see how the email is coming through how the SMS is coming through
+22:29
+how the details pop up on the dashboard on Friday when we meet it's more of if
+22:34
+you observe something that needs change that's that's something that we will
+22:38
+address on the call and then I'll just walk you around uh the dashboard to
+22:42
+probably show you some uh nice features that are helpful.
+22:48
+Yeah. Yeah. Okay. Let's do it in the afternoon. I think that'd be a little
+22:51
+better if you've got some time around 2:00.
+22:54
+>> Okay, that's fine. Uh we can schedule it for 2:00 on Friday
+22:59
+>> and then
+23:00
+>> Perfect.
+23:01
+>> Ideally, so once after we meet on Friday, we can, you know, have the
+23:07
+setting already.
+23:08
+>> We can form the main line.
+23:10
+>> We can have the because that's how it works, right? Once you put it in front
+23:14
+of the customer, um you you'll see how you know they're receiving it and you'll
+23:18
+already see a lot of time given back to yourself with not having to answer all
+23:23
+the spam calls and
+23:26
+>> Yeah. So at um Okay. So once we go live um then it's going to answer the calls.
+23:32
+Oh, we can configure it. So it answers the calls if I don't. Right.
+23:36
+>> Yeah. So that's a setting that we can
+23:38
+>> just do you think uh the second number will be up by Friday Ben would you think
+23:44
+that's a possibility? Yeah,
+23:46
+>> that'll be ideal where we can set it up in a way where we could forward all the
+23:50
+calls from mainline on to and then from there if someone wants to talk to you
+23:55
+know you or someone they're like no I I want to talk to someone because you you
+23:59
+would have that you know percentage of customers who will be like I don't want
+24:04
+to go through this just put me through so we don't want to
+24:08
+>> um you know create a lot of friction there so we can just patch them through
+24:12
+>> but you we'll just get a quick purpose of you know why they're calling and then
+24:18
+>> okay
+24:19
+>> so in initial few days there'll be that calibration where you know uh all the
+24:24
+along with all the spam call you know one or two spam calls
+24:28
+might be going through uh you know the sales calls that are coming in but we
+24:34
+will
+24:35
+>> it'll probably be the edge cases here and there where someone told something a
+24:38
+little differently and then they they told it's a relative of yours and then
+24:42
+they got through uh to
+24:45
+>> make a sales call, right? So, we'll try we'll try to have all of that minimized.
+24:51
+We'll start off with,
+24:52
+>> you know, keeping the door
+24:55
+>> relatively closed, we'll shut the door, you know, as we
+25:00
+>> Yeah, sounds good.
+25:02
+>> Cool. Then we'll have the testing piece taken care of in the following
+25:05
+conversations and should everything go well, we can uh get things up and
+25:09
+running for you.
+25:11
+>> That'd be great. I like it. Cool. Then yeah just watch out for my email there
+25:16
+when I'll drop uh the details of the agent the number which you can dial to
+25:21
+talk to the agent nothing is live yet so you can directly call that number have a
+25:25
+conversation see how the agent responds
+25:27
+>> and you know see the post call workflow in that way as well.
+25:31
+>> Yeah fantastic uh so that was all I had from my side uh thank you so much for
+25:35
+your time Ben. But yeah over to you Barut.
+25:39
+Yeah,
+25:41
+>> go. I'll just I'll see you, Ben. Just watch out my Watch out for my email.
+25:46
+>> Thank you very much. Yeah, thanks.
