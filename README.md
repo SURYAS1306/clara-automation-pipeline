@@ -182,6 +182,8 @@ For each account:
    - Configure business hours, routing rules, and transfer settings using the JSON as reference  
 4. Save the agent.
 
+---
+
 #### Versioning
 
 - `v1` → Generated from demo call (preliminary configuration)  
