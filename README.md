@@ -118,6 +118,8 @@ This enables end-to-end execution on datasets containing **5 demo calls + 5 onbo
 
 The workflow is deterministic and idempotent — running it multiple times does not create duplicate artifacts or inconsistent state.
 
+---
+
 ### Diff viewer & summary metrics
 
 To inspect how v2 differs from v1 for a given account and see coverage stats:
