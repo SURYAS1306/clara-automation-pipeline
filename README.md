@@ -204,6 +204,7 @@ Each file acts as a mock task record (similar to an Asana ticket) with:
 
 The pipeline automatically upserts these files when v1 or v2 artifacts are created, giving you a simple, local way to track per-account workflow state without any paid SaaS.
 
+---
 
 ### LLM Usage (Zero-Cost Compliance)
 
