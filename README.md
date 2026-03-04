@@ -148,6 +148,8 @@ Suggested usage:
 2. Import `workflows/n8n_clara_pipeline.json` into n8n.  
 3. Manually trigger the workflow to process all available demo + onboarding transcripts.
 
+---
+
 ### Retell Setup
 
 This project generates a **Retell Agent Draft Spec** (`agent_spec.json`) for each account.  
