@@ -134,6 +134,8 @@ Output includes:
 
 You can find `<account_id>` by listing `outputs/accounts/` after a run.
 
+---
+
 ### n8n workflow (optional)
 
 The `workflows/n8n_clara_pipeline.json` file is an exportable n8n workflow that:
