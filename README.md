@@ -189,6 +189,8 @@ For each account:
 
 The JSON files serve as the source of truth and allow full reproducibility even without API access.
 
+---
+
 ### Task Tracking Layer
 
 This project includes a minimal, zero-cost task tracking layer under:
